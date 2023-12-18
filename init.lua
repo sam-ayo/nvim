@@ -1,6 +1,5 @@
 local isVsCode = vim.g.vscode
 if isVsCode then
-  print("Hello, world from init.lua")
   require("sam-ayo.vscode.keymaps")
 else
   require("sam-ayo.plugins-setup")
